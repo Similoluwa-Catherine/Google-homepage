@@ -1,0 +1,83 @@
+body, p{
+    margin:0;
+    padding:0;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    margin-left: auto;
+    width: 15%;
+    padding: 1em;
+    }
+    nav img{
+        height: 22px;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    main{
+        margin: 3em auto;
+        width:50%;
+        text-align: center;
+    }
+    .icon{
+        height:18px;
+    }
+    .input-container{
+        display:flex;
+        justify-content: space-between;
+        width:80%;
+        height: 20px;
+        padding: 0.8em;
+        border: 1px solid rgb(233, 226, 226);
+        border-radius: 30px;
+        margin:2em auto auto auto;
+    }
+    .input-container > input{
+        flex-grow: 1;
+        border: none;
+        outline: none;
+    }
+    .btn_container{
+        margin-top: 1.5em;
+    }
+    .btn_container button{
+        border: none;
+        padding: 0.7em;
+    }
+p{
+    margin-top: 1.5em;
+}
+p a{
+    color:rgb(24, 24, 170);
+    margin-left: 0.5em;
+}
+p a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: rgb(245, 243, 243);
+    margin-top: 12em;
+}
+.footer-top{
+    padding: 1em;
+}
+.footer-bottom{
+    padding: 1em;
+    display:flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(209, 206, 206);
+}
+.left a{
+    margin-right: 1.3em;
+}
+.right a{
+    margin-right: 1.3em;
+}
+.country{
+    margin-top: 0;
+}
