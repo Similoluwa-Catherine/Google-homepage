@@ -1,6 +1,12 @@
-body, p{
+*{
     margin:0;
     padding:0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
 }
 nav{
     display:flex;
@@ -26,9 +32,11 @@ nav{
     }
     .icon{
         height:18px;
+        margin-top: -8px;
     }
     .input-container{
         display:flex;
+        flex-direction: row;
         justify-content: space-between;
         width:80%;
         height: 20px;
@@ -61,7 +69,7 @@ p a:hover{
 }
 footer{
     background-color: rgb(245, 243, 243);
-    margin-top: 12em;
+    margin-top: auto;
 }
 .footer-top{
     padding: 1em;
