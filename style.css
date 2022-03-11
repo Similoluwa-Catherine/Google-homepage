@@ -12,29 +12,12 @@ nav{
     display:flex;
     justify-content: space-around;
     margin-left: auto;
-    width: 25%;
-    padding: 2em;
-    align-item: center;
+    width: 15%;
+    padding: 1em;
     }
     nav img{
         height: 22px;
     }
- nav button{   
-   background-color: #4284f4;
-   color: #fff;
-   font-weight: bold;
-   padding: 7px 12px;
-   border: 1px solid #4284f4;
-   border-radius: 3px;
-   letter-spacing: 1px;
-   outline: none;
-   cursor: pointer;
-   }
-nav button:hover {
-  opacity: 0.9;
-  }
-
-
     a{
         color: black;
         text-decoration: none;
