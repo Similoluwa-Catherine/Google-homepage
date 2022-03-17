@@ -106,11 +106,11 @@ p a{
     margin-left: 0.5em;
 }
 
-p a:hover{
+p a:hover {
     text-decoration: underline;
 }
 
-footer{
+footer {
     background-color: #f2f2f2;
     margin-top: auto;
     font-size: 0.9rem;
